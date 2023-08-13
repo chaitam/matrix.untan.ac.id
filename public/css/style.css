@@ -1,0 +1,22 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+.slide-container {
+    padding: 40px 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #1397fc;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: #ffcf0f;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+    .swiper-navBtn {
+        display: none;
+    }
+}
