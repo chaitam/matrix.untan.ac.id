@@ -14,9 +14,12 @@ return new class extends Migration
         Schema::create('table_lagu', function (Blueprint $table) {
             $table->increments('id');
             $table->string('file_audio', 225);
-            $table->string('lirik', 225);
+            $table->string('judul', 225);
+            $table->string('file_foto_lagu', 225);
+            $table->text('lirik');
             $table->string('pencipta', 225);
-            $table->date('tahun');
+            $table->string('tahun');
+            $table->timestamps();
         });
     }
 

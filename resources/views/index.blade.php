@@ -4,7 +4,7 @@
     <section id="home relative">
         @include('partials.hero')
         <h1
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-xl font-bold text-primary lg:text-4xl xl:text-6xl">
+            class="absolute left-1/2 top-[20%] -translate-x-1/2 -translate-y-1/4 text-center text-xl font-bold text-primary lg:text-4xl xl:text-6xl sm:text-2xl sm:top-[35%] md:top-1/2">
             Selamat Datang
             <br>
             <span class="text-secondary text-base xl:text-6xl lg:text-4xl">Di Website Angkatan 2022</span>
