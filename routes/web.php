@@ -35,3 +35,5 @@ Route::get('/kontak', function () {
 Route::get('/lirik/{id}', [LaguController::class, 'lirik']);
 
 Route::get('/detail/{nim}', [MahasiswaController::class, 'show']);
+
+Route::get('/kegiatan/{id}', [KegiatanController::class, 'show']);

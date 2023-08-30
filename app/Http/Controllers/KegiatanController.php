@@ -35,9 +35,12 @@ class KegiatanController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Kegiatan $kegiatan)
+    public function show($id)
     {
-        return view('detail');
+        $kgt= Kegiatan::all();
+        $arr = $kgt->firstWhere("id", $id)->foto_lengkap_kegiatan;
+        $new_post = $kgt->firstWhere('id', $id);
+        return view('kegiatan',["kgt" => $new_post])->with("arr", $arr);
     }
 
     /**

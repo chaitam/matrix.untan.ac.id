@@ -14,8 +14,8 @@
                 <div class="slide-content md:mx-10px mx-10 my-0 overflow-hidden md:my-0">
                     <div class="card-wrapper swiper-wrapper ">
                         @foreach ($foto as $kegiatan)
-                            <a href="" class="card swiper-slide relative ">
-                                <img src="{{ $kegiatan->file_foto }}" alt="" class="brightness-50 rounded-xl" />
+                            <a href="/kegiatan/{{ $kegiatan->id }}" class="card swiper-slide relative ">
+                                <img src="img/{{ $kegiatan->file_foto }}" alt="" class="brightness-50 rounded-xl" />
                                 <div class="absolute top-4 left-2 p-4 text-white">
                                     <h2 class="font-bold text-xl">{{ $kegiatan->nama_kegiatan }}</h2>
                                 </div>

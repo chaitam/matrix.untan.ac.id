@@ -340,5 +340,11 @@ class DatabaseSeeder extends Seeder
             'pencipta' => '-',
             'tahun' => '-',
         ]);
+
+        Kegiatan::create([
+            'file_foto' => 'img/1.jpg',
+            'nama_kegiatan' => 'Sisfo Day',
+            'foto_lengkap_kegiatan' => '1.jpg',
+        ]);
     }
 }
