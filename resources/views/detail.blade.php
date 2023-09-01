@@ -82,7 +82,7 @@
     <!-- Header End -->
 
 
-    <section class="pt-36 pb-36 ">
+    <section class="pt-36 pb-36">
         <div class="m-h-[100vh] container flex items-center justify-center">
             <div class="slide-container swiper">
                 <div class="slide-content md:mx-10px mx-10 my-0 overflow-hidden md:my-0">

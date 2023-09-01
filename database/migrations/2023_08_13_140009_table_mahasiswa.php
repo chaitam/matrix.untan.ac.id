@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nama', 100);
             $table->string('foto_normal', 225);
             $table->string('foto_nonformal', 225);
-            $table->string('hobi', 100);
+            $table->string('hobi', 225);
             $table->string('ttl');
             $table->string('quotes', 225);
             $table->timestamps();

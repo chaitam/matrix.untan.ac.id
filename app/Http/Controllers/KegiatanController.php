@@ -43,6 +43,14 @@ class KegiatanController extends Controller
         return view('kegiatan',["kgt" => $new_post])->with("arr", $arr);
     }
 
+    public function galeri($id)
+    {
+        $kgt= Kegiatan::all();
+        $arr = $kgt->firstWhere("id", $id)->foto_lengkap_kegiatan;
+        $new_post = $kgt->firstWhere('id', $id);
+        return view('detail-kegiatan',["kgt" => $new_post])->with("arr", $arr);
+    }
+
     /**
      * Show the form for editing the specified resource.
      */

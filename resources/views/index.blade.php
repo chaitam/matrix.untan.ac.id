@@ -20,8 +20,14 @@
                 <div class="mb-10 w-full px-4 lg:w-1/2">
                     <h4 class="mb-3 text-lg font-bold uppercase text-primary lg:text-4xl">TENTANG <span
                             class="text-secondary">MATRIX</span></h4>
-                    <p class="max-w-xl text-base font-medium text-white lg:text-lg">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Id temporibus maiores sequi vitae saepe iusto deleniti!</p>
+                    <p class="max-w-xl text-base font-medium text-white lg:text-lg">MATRIX 22 adalah komunitas yang berisi
+                        mahasiswa-mahasiswi yang tergabung didalam Program Studi Sistem Informasi Universitas Tanjung Pura.
+                    </p>
+                    <p class="max-w-xl text-base font-medium text-white lg:text-lg">Komunitas ini bersifat tertutup dan
+                        hanya diisi oleh mahasiswa/i angkatan 2022.</p>
+                    <p class="max-w-xl text-base font-medium text-white lg:text-lg">MATRIX 22 diisi oleh orang-orang dari
+                        berbagai latar belakang suku, ras, dan agama. Namun dengan perbedaan tersebut tercipta suatu
+                        solidaritas yang terbangun didalamnya.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <img src="img/matrix logo 3.png" alt="" class="w-full h-full">
@@ -43,17 +49,25 @@
             </div>
 
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12 ">
-                <div class="mb-12 p-2 md:w-1/2 text-center  rounded border-red-900">
+                <div class="mb-12 p-2 md:w-1/2 text-center mx-[2px]">
                     <h3 class="font-semibold text-xl text-primary mt-5 mb-3 ">VISI</h3>
-                    <p class="font-medium text-base text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Laudantium iure eveniet perferendis enim mollitia iste eos? Dignissimos soluta consequuntur libero.
+                    <p class="font-medium text-base text-white">Menjadi angkatan yang memiliki rasa solidaritas yang tinggi
+                        dan rasa kekeluargaan yang erat serta memiliki inovasi yang dapat membawa perubahan yang berdampak
+                        pada pengelolaan sistem informasi mengikuti perkembangan zaman.
                     </p>
                 </div>
 
-                <div class="mb-12 p-4 md:w-1/2 text-center  rounded border-red-900">
+                <div class="mb-12 p-4 md:w-1/2 text-center">
                     <h3 class="font-semibold text-xl text-secondary mt-5 mb-3 ">MISI</h3>
-                    <p class="font-medium text-base text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Laudantium iure eveniet perferendis enim mollitia iste eos? Dignissimos soluta consequuntur libero.
+                    <p class="font-medium text-base text-white">1. Membangun rasa saling percaya antar mahasiswa sistem
+                        informasi angkatan 2022.<br>
+                        2. Melaksanakan aktivitas bersama yang dapat menciptakan keharmonisan yang baik diantara mahasiswa.
+                        <br>
+                        3. Membangun sistem informasi yang dikelola bersama guna mendukung tranformasi digitalisasi
+                        pengelolaan sumber daya.<br>
+                        4. Melaksanakan pengabdian kepada masyarakat pada bidang sistem informasi untuk menciptakan
+                        masyarakat yang paham teknologi.<br>
+                        5. Mendukung jurusan dalam melaksanakan kegiatan Tri Dharma Perguruan Tinggi.
                     </p>
                 </div>
             </div>
@@ -73,16 +87,16 @@
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12 card-ketang">
 
                 <div class="mb-12 p-4 md:w-1/2 text-center">
-                    <img src="img/1.jpg" alt="" class="brightness-50 w-full h-full object-cover ">
+                    <img src="img/H1101221025.png" alt="" class="brightness-50 w-full object-cover h-[450px]">
                 </div>
 
                 <div class="mb-12 p-4 md:w-1/2 text-center ">
                     <h3 class="font-semibold text-xl text-secondary mt-5 mb-3 lg:text-xl">NUGROHO EKO SULISTYO</h3>
-                    <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Veritatis obcaecati iste saepe amet consequuntur facere voluptas neque placeat aut quas illum quae
-                        deleniti optio adipisci, totam unde. Laborum blanditiis omnis assumenda rerum facilis eaque at,
-                        veniam nam molestias incidunt exercitationem non officiis maxime aperiam numquam error eius est
-                        autem praesentium.</p>
+                    <p class="font-medium text-base text-white">Angaktan 2022 Sistem Informasi Universitas Tanjungpura</p>
+                    <p class="font-medium text-base text-white">Jabatan Ketua Angkatan dipercayakan kepada Nugroho Eko atau
+                        yang biasa di panggil eko sebagai ketua angkatan.</p>
+                    <p class="font-medium text-base text-white">Eko diharapkan mampu membawa dan mempersatukan Angkatan 2022
+                        menuju solidaritas dan kebersamaan didalam menjalani masa perkuliahan.</p>
                 </div>
             </div>
         </div>
