@@ -341,12 +341,6 @@ class DatabaseSeeder extends Seeder
             'tahun' => '-',
         ]);
 
-        Kegiatan::create([
-            'file_foto' => 'IMG_3319.jpg',
-            'nama_kegiatan' => 'SIG',
-            'foto_lengkap_kegiatan' => 'IMG_3341.jpg,IMG_3319.jpg,IMG_3317.jpg,wa_1.jpg,wa_2.jpg,wa_3.jpg,wa_4.jpg',
-        ]);
-
         Mahasiswa::create([
             'nim' => 'H1101221023',
             'nama' => 'Amanda Putry Perawaty',
@@ -847,6 +841,50 @@ class DatabaseSeeder extends Seeder
             'ttl' => 'Pontianak, 18 Maret 2004',
             'quotes' => 'YOLO',
         ]);
+
+        Kegiatan::create([
+            'file_foto' => 'INFEST_10.png',
+            'nama_kegiatan' => 'INFEST',
+            'foto_lengkap_kegiatan' => 'INFEST_1.png,INFEST_2.png,INFEST_3.png,INFEST_4.png,INFEST_5.png,INFEST_6.png,INFEST_7.png,INFEST_8.png,INFEST_9.png,INFEST_10.png,INFEST_11.png,INFEST_12.png,INFEST_13.png,INFEST_14.png',
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'MATRIKULASI_7.png',
+            'nama_kegiatan' => 'Matrikulasi',
+            'foto_lengkap_kegiatan' => 'MATRIKULASI_1.png,MATRIKULASI_2.png,MATRIKULASI_3.png,MATRIKULASI_4.png,MATRIKULASI_5.png,MATRIKULASI_6.png,MATRIKULASI_7.png',
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'Olahraga_1.png',
+            'nama_kegiatan' => 'Olahraga',
+            'foto_lengkap_kegiatan' => 'OLAHRAGA_1.png,OLAHRAGA_2.png,OLAHRAGA_3.png,OLAHRAGA_4.png,OLAHRAGA_5.png,OLAHRAGA_6.png,OLAHRAGA_7.png,OLAHRAGA_8.png,OLAHRAGA_9.png,OLAHRAGA_10.png,OLAHRAGA_11.png,OLAHRAGA_12.png,OLAHRAGA_13.png,OLAHRAGA_14.png,OLAHRAGA_15.png,OLAHRAGA_16.png,OLAHRAGA_17.png,OLAHRAGA_18.png,OLAHRAGA_18.png,OLAHRAGA_19.png,OLAHRAGA_20.png,OLAHRAGA_21.png,OLAHRAGA_22.png,OLAHRAGA_23.png,OLAHRAGA_24.png',
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'PARTISI_61.png',
+            'nama_kegiatan' => 'PARTISI',
+            'foto_lengkap_kegiatan' => 'PARTISI_1.png,PARTISI_2.png,PARTISI_3.png,PARTISI_4.png,PARTISI_5.png,PARTISI_6.png,PARTISI_7.png,PARTISI_8.png,PARTISI_9.png,PARTISI_10.png,PARTISI_11.png,PARTISI_12.png,PARTISI_13.png,PARTISI_14.png,PARTISI_15.png,PARTISI_16.png,PARTISI_17.png,PARTISI_18.png,PARTISI_19.png,PARTISI_20.png,PARTISI_21.png,PARTISI_22.png,PARTISI_23.png,PARTISI_24.png,PARTISI_25.png,PARTISI_26.png,PARTISI_27.png,PARTISI_28.png,PARTISI_29.png,PARTISI_30.png,PARTISI_31.png,PARTISI_32.png,PARTISI_33.png,PARTISI_34.png,PARTISI_35.png,PARTISI_36.png,PARTISI_37.png,PARTISI_38.png,PARTISI_39.png,PARTISI_40.png,PARTISI_41.png,PARTISI_42.png,PARTISI_43.png,PARTISI_44.png,PARTISI_45.png,PARTISI_46.png,PARTISI_47.png,PARTISI_48.png,PARTISI_49.png,PARTISI_50.png,PARTISI_51.png,PARTISI_52.png,PARTISI_53.png,PARTISI_54.png,PARTISI_55.png,PARTISI_56.png,PARTISI_57.png,PARTISI_58.png,PARTISI_59.png,PARTISI_60.png,PARTISI_61.png,PARTISI_62.png,PARTISI_63.png,PARTISI_64.png',
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'PENYERAHAN PIN_1.png',
+            'nama_kegiatan' => 'Penyerahan Pin',
+            'foto_lengkap_kegiatan' => 'PENYERAHAN PIN_1.png,PENYERAHAN PIN_2.png,PENYERAHAN PIN_3.png,PENYERAHAN PIN_4.png,PENYERAHAN PIN_5.png,PENYERAHAN PIN_6.png,PENYERAHAN PIN_7.png,PENYERAHAN PIN_8.png,PENYERAHAN PIN_9.png'
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'SIG_3.png',
+            'nama_kegiatan' => 'SIG',
+            'foto_lengkap_kegiatan' => 'SIG_1.png,SIG_2.png,SIG_3.png,SIG_4.png,SIG_5.png,SIG_6.png,SIG_7.png,SIG_8.png,SIG_9.png,SIG_10.png,SIG_11.png,SIG_12.png,SIG_13.png,SIG_14.png,SIG_15.png,SIG_16.png,SIG_17.png,SIG_18.png,SIG_19.png,SIG_20.png,SIG_21.png'
+        ]);
+
+        Kegiatan::create([
+            'file_foto' => 'SISFO DAY_7.png',
+            'nama_kegiatan' => 'Sisfo Day',
+            'foto_lengkap_kegiatan' => 'SISFO DAY_1.png,SISFO DAY_2.png,SISFO DAY_3.png,SISFO DAY_4.png,SISFO DAY_5.png,SISFO DAY_6.png,SISFO DAY_7.png,SISFO DAY_8.png'
+        ]);
+
+
 
         
         

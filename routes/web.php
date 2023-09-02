@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/tes', function () {
+    return view('welcome');
+});
+
 Route::get('/profil', [MahasiswaController::class,'index']);
 
 Route::get('/galeri', [KegiatanController::class,'index']);

@@ -49,7 +49,7 @@
             </div>
 
             <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12 ">
-                <div class="mb-12 p-2 md:w-1/2 text-center mx-[2px]">
+                <div class="mb-12 p-2 md:w-1/2 text-center">
                     <h3 class="font-semibold text-xl text-primary mt-5 mb-3 ">VISI</h3>
                     <p class="font-medium text-base text-white">Menjadi angkatan yang memiliki rasa solidaritas yang tinggi
                         dan rasa kekeluargaan yang erat serta memiliki inovasi yang dapat membawa perubahan yang berdampak

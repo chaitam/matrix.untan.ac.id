@@ -82,7 +82,7 @@
     <!-- Header End -->
 
 
-    <section class="pt-36 pb-36 flex flex-wrap container px-48">
+    <section class="pt-36 pb-36 flex flex-wrap container px-48" id="home">
         @php
             $array = explode(',', $arr);
         @endphp

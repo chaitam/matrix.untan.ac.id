@@ -85,7 +85,7 @@
     <section class="pt-36 pb-36 ">
         <div class="px-5 pb-12 lg:px-12 2xl:px-40 relative">
             <img id="fotoBesar" src="../img/{{ $kgt->file_foto }}" alt="" class="rounded-xl brightness-50"
-                onclick="gantiGambar()" style="transition: opacity 0.5s; ">
+                onclick="gantiGambar()" style="transition: opacity 0.5s;">
             <div class="absolute top-4 left-10  text-white md:top-6 md:left-12 lg:left-24 2xl:left-52 2xl:top-10">
                 <h2 class="font-bold text-base lg:text-xl 2xl:text-3xl">{{ $kgt->nama_kegiatan }}</h2>
             </div>
@@ -104,7 +104,7 @@
                                 <img id="fotoKecil{{ $kgt->id }}" src="../img/{{ $foto }}"
                                     alt="foto_nonformal"
                                     class="brightness-50 w-[90%] h-[90%] mx-auto sm:w-[65%] sm:h-[65%] md:w-[50%] md:h-[50%] xl:w-[70%] xl:h-[70%] rounded-xl cursor-pointer"
-                                    onclick="gantiGambar(this.src) " style="transition: opacity 0.5s;">
+                                    onclick="gantiGambar(this.src) " style="transition: opacity 0.5s;" height="650">
                             </div>
                         @endforeach
                     </div>

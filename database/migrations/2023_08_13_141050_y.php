@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('file_foto', 225);
             $table->string('nama_kegiatan', 225);
-            $table->string('foto_lengkap_kegiatan', 225);
+            $table->text('foto_lengkap_kegiatan');
             $table->timestamps();
         });
     }

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MATRIX</title>
     <link rel="icon" type="image/x-icon" href="../img/MATRIX.png">
-    @vite('resources/css/app.css')
+    @vite('../resources/css/app.css')
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -82,18 +82,20 @@
     <!-- Header End -->
 
 
-    <section class="pt-36 pb-36">
+    <section class="pt-36 pb-36" id="home">
         <div class="m-h-[100vh] container flex items-center justify-center">
-            <div class="slide-container swiper">
-                <div class="slide-content md:mx-10px mx-10 my-0 overflow-hidden md:my-0">
+            <div class="slide-container swiper m-w-[1120px] w-full">
+                <div class="slide-content md:mx-10px my-0 overflow-hidden ">
                     <div class="card-wrapper swiper-wrapper">
                         @php
                             $array = explode(',', $arr);
                         @endphp
                         @foreach ($array as $foto)
-                            <div class="card swiper-slide mx-1 card-ketang">
+                            <div class="card swiper-slide card-ketang">
                                 <img src="../img/{{ $foto }}" alt="foto_nonformal"
                                     class="brightness-50 w-[90%] h-[90%] mx-auto sm:w-[65%] sm:h-[65%] md:w-[50%] md:h-[50%] xl:w-[30%] xl:h-[30%]" />
+
+
                             </div>
                         @endforeach
                     </div>
