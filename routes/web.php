@@ -7,6 +7,7 @@ use App\Models\Lagu;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KegiatanController;
 use App\Http\Controllers\LaguController;
+use Illuminate\Support\Facades\Artisan;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,10 @@ use App\Http\Controllers\LaguController;
 |
 */
 
+Route::get('/mig-fresh-seed', function () {
+    $exitcode = Artisan::call('migrate:fresh --seed');
+    return "Done";
+});
 Route::get('/', function () {
     return view('index');
 });
