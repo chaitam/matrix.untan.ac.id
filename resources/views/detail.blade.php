@@ -110,7 +110,7 @@
             <h1 class="pt-5 font-bold text-xl lg:text-2xl">Nama : {{ $mhs->nama }}</h1>
             <h3 class="font-semibold text-base lg:text-2xl">NIM : {{ $mhs->nim }}</h3>
             <h3 class="pt-2 font-semibold text-base lg:text-xl">Hobi : {{ $mhs->hobi }}</h3>
-            <h3 class="pt-2 font-semibold text-base lg:text-xl">TTL : Pontianak, {{ $mhs->ttl }}</h3>
+            <h3 class="pt-2 font-semibold text-base lg:text-xl">TTL : {{ $mhs->ttl }}</h3>
             <h3 class="pt-2 font-semibold text-base lg:text-xl">Quotes : {{ $mhs->quotes }}
             </h3>
         </div>
