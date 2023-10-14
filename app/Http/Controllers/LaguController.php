@@ -17,10 +17,11 @@ class LaguController extends Controller
     }
 
     public function lirik($id)
-    {   
+    {
         $lagu = Lagu::all();
         $lirik = $lagu->firstWhere('id', $id);
-        return view('lirik-lagu',["lagu" => $lirik]);
+        $audio = $lagu->firstWhere('id', $id);
+        return view('lirik-lagu',['lagu' => $lirik], ['audio' => $audio]);
     }
 
     /**

@@ -173,7 +173,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'KITA-MATRIX.mp3',
             'file_foto_lagu'=> 'lagu-1.png',
             'judul' => 'Kita Matrix',
             'lirik' => '<p>Bermula Dari keinginan semata</p>
@@ -195,7 +195,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Mars-MIPA.mp3',
             'file_foto_lagu'=> 'lagu-2.png',
             'judul' => 'Mars MIPA',
             'lirik' => '<p>Hai aktivis MIPA maju ke hadapan</p>
@@ -218,7 +218,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Press-MIPA.mp3',
             'file_foto_lagu'=> 'lagu-3.png',
             'judul' => 'Press MIPA',
             'lirik' => '<p>Kami anak MIPA</p>
@@ -236,7 +236,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Mars-HMSI.mp3',
             'file_foto_lagu'=> 'lagu-4.png',
             'judul' => 'MARS HMSI',
             'lirik' => '<p>Kami adalah para pejuang</p>
@@ -260,7 +260,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'MARS-PARTISI.mp3',
             'file_foto_lagu'=> 'lagu-5.png',
             'judul' => 'MARS PARTISI',
             'lirik' => '<p>Kami calon penerus HMSI</p>
@@ -277,7 +277,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Totaliatas-Perjuangan.mp3',
             'file_foto_lagu'=> 'lagu-6.png',
             'judul' => 'Totalitas Perjuangan',
             'lirik' => '<p>Kepada para Mahasiswa</p>
@@ -299,7 +299,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Darah-Juang.mp3',
             'file_foto_lagu'=> 'lagu-7.png',
             'judul' => 'Darah Juang',
             'lirik' => '<p>Disini negeri kami</p>
@@ -322,7 +322,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Lagu::create([
-            'file_audio' => '-',
+            'file_audio' => 'Buruh-Tani.mp3',
             'file_foto_lagu'=> 'lagu-8.png',
             'judul' => 'Buruh Tani',
             'lirik' => '<p>Buruh tani mahasiswa rakyat miskin kota</p>
@@ -336,7 +336,13 @@ class DatabaseSeeder extends Seeder
         <p>Marilah kawan mari kita kabarkan</p>
         <p>Ditangan kita tergenggam arah bangsa</p>
         <p>Marilah kawan mari kita nyanyikan</p>
-        <p>Sebuah lagu tentang pembebasan</p>',
+        <p>Sebuah lagu tentang pembebasan</p>
+        <p>Di bawah kuasa tirani</p>
+        <p>Ku susuri garis jalan ini</p>
+        <p>Berjuta kali turun aksi</p>
+        <p>Bagiku satu langkah pasti</p>
+        <p>Berjuta kali turun aksi</p>
+        <p>Bagiku satu langkah pasti</p>',
             'pencipta' => '-',
             'tahun' => '-',
         ]);
@@ -510,7 +516,7 @@ class DatabaseSeeder extends Seeder
             'ttl' => 'Pontianak, 23 Oktober 2003',
             'quotes' => 'Biarlah hidup membawa diriku kemana... Let The Wind Lead!',
         ]);
-        
+
         Mahasiswa::create([
             'nim' => 'H1101221067',
             'nama' => 'Fachri Julianda',
@@ -558,7 +564,7 @@ class DatabaseSeeder extends Seeder
             'foto_nonformal' => 'H1101221032_non1.png,H1101221032_non2.png,H1101221032.png',
             'hobi' => 'Dance',
             'ttl' => 'Pontianak, 11 September 2004',
-            'quotes' => '7S + 1D' 
+            'quotes' => '7S + 1D'
         ]);
 
         Mahasiswa::create([
@@ -886,7 +892,7 @@ class DatabaseSeeder extends Seeder
 
 
 
-        
-        
+
+
     }
 }

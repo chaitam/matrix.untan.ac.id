@@ -95,6 +95,8 @@
         {!! $lagu->lirik !!}
     </div>
 
+    <audio src="../audio/{{ $lagu->file_audio }}" controls autoplay autobuffer class="hidden"></audio>
+
     <script src="../js/script.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
